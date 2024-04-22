@@ -1,0 +1,41 @@
+theme: 'PaperMod'
+title:  "Chris Juchem" # optional default will be site title
+params:
+  profileMode:
+    enabled: true
+    title:  "" # optional default will be site title
+    subtitle: "Boston-based Software Engineer and Game Developer"
+    imageUrl: "images/chris.jpg"
+    imageTitle: "Photo of me"
+    imageWidth: 400
+    imageHeight: 400
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/chrisjuchem/"
+    - name: "github"
+      url: "https://www.github.com/chrisjuchem"
+
+  ShowBreadCrumbs: true
+#  ShowToc: true
+#  ShowPostNavLinks: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: articles
+      name: Articles
+      url: /articles
+      weight: 10
+    - identifier: games
+      name: Games
+      url: /games
+      weight: 20
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 30
