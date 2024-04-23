@@ -1,0 +1,35 @@
+/* Link colors */
+p a {
+    color: blue
+}
+p a:visited {
+    color: purple
+}
+
+/* centered divs */
+.centered {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.centered img {
+    display: inline;
+    margin: 0px;
+}
+
+/* Post Thumbnails */
+:root {
+    --thumbnail: 90px
+}
+.post-entry {
+    box-sizing: content-box;
+    min-height: var(--thumbnail);
+}
+.entry-cover {
+    box-sizing: content-box;
+    height: var(--thumbnail);
+    width: var(--thumbnail);
+    left: calc(100% - var(--thumbnail) - var(--gap));
+    position: absolute;
+}

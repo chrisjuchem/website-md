@@ -1,7 +1,9 @@
 ---
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 date: '{{ .Date }}'
-draft: true
-author: 'Chris Juchem'
 summary: ''
+cover:
+    image: ''
+    hidden: true
+    hiddenInList: false
 ---
