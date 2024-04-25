@@ -6,4 +6,7 @@ set -e
 rm -rf public/
 hugo --baseURL https://chrisjuchem.dev/ --environment production
 
-hugo deploy
+echo
+echo "Build succeeded, deploying..."
+
+hugo deploy --verbose
