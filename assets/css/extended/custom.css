@@ -20,9 +20,9 @@ p a:visited {
 
 /* Post Thumbnails */
 :root {
-    --thumbnail: 90px
+    --thumbnail: 115px
 }
-.post-entry {
+.post-entry:has(.entry-cover) {
     box-sizing: content-box;
     min-height: var(--thumbnail);
 }
@@ -32,6 +32,11 @@ p a:visited {
     width: var(--thumbnail);
     left: calc(100% - var(--thumbnail) - var(--gap));
     position: absolute;
+}
+.entry-cover ~ .entry-header,
+.entry-cover ~ .entry-content,
+.entry-cover ~ .entry-footer {
+    max-width: calc(100% - var(--thumbnail) - var(--gap));
 }
 
 /* Don't squish homepage picture on mobile */
