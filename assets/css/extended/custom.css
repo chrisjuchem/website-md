@@ -33,3 +33,8 @@ p a:visited {
     left: calc(100% - var(--thumbnail) - var(--gap));
     position: absolute;
 }
+
+/* Don't squish homepage picture on mobile */
+.profile img {
+    max-width: initial;
+}
