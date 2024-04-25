@@ -47,3 +47,21 @@ menu:
       name: Resume
       url: /resume
       weight: 30
+
+deployment:
+  targets:
+    - name: s3
+      # Amazon Web Services S3; see https://gocloud.dev/howto/blob/#s3
+      # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+      URL: "s3://www.chrisjuchem.dev?region=us-east-2"
+      cloudFrontDistributionID: "E1SB35Z0FSXGIF"
+
+      # Include or exclude specific files when deploying to this target:
+      # If exclude is non-empty, and a local or remote file's path matches it, that file is not synced.
+      # If include is non-empty, and a local or remote file's path does not match it, that file is not synced.
+      # Note: local files that don't pass the include/exclude filters are not uploaded to remote,
+      # and remote files that don't pass the include/exclude filters are not deleted.
+      #
+      # The pattern syntax is documented here: https://godoc.org/github.com/gobwas/glob#Glob
+      # Patterns should be written with forward slashes as separator.
+      exclude: "{diplomacy-chess**,}"
