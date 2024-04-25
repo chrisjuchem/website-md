@@ -4,6 +4,6 @@
 set -e
 
 rm -rf public/
-hugo --baseURL chrisjuchem.dev/ --environment production
+hugo --baseURL https://chrisjuchem.dev/ --environment production
 
 hugo deploy
