@@ -31,10 +31,6 @@ params:
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
     - identifier: articles
       name: Articles
       url: /articles
