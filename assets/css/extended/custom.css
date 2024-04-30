@@ -43,3 +43,8 @@ p a:visited {
 .profile img {
     max-width: initial;
 }
+
+/* extra spacing for breadcrumb links */
+.breadcrumbs {
+    margin-bottom: var(--content-gap);
+}
