@@ -1,7 +1,7 @@
 ---
 title: 'Diplomacy Chess'
 date: '2024-01-13T01:32:35-04:00'
-summary: 'A chess variant with simultaneous turns'
+summary: 'Chess variant with simultaneous turns'
 cover:
     image: images/games/diplomacy-chess/setup.png
     hidden: true
