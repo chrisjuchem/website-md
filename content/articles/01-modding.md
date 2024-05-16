@@ -6,6 +6,8 @@ author: 'Chris Juchem'
 summary: ''
 ---
 
+# Reflecting on Balatro mods
+
 The other day while playing *Balatro*, I realized that since the game was
 written in *Lua*, an interpreted language, the source code would need to be
 directly embedded in the executable file. I couldn't resist the temptation to
@@ -61,6 +63,10 @@ And here on the forum were all these people hacking away at this game that had
 only been out for two months. Surely, they didn't feel like they'd answered 
 all these questions already. They just didn't care, didn't see the same
 artistic beauty in it as I do. So, what was the appeal then?
+
+Well, I think people just like creating things. They want to practice their
+coding and design skills. This is the same reason I dug into the source code in
+the first place.
 
 Balatro
  - I unzipped and read src.

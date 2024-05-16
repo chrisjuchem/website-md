@@ -29,6 +29,8 @@ params:
   
   ShowCodeCopyButtons: true
 
+  comments: true
+
 menu:
   main:
     - identifier: articles
