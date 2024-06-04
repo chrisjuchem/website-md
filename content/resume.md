@@ -2,6 +2,7 @@
 title: 'Resume'
 showtoc: true
 disableShare: true
+comments: false
 ---
 
 [//]: # ([1-page PDF version]&#40;&#41;)
