@@ -62,4 +62,4 @@ deployment:
       #
       # The pattern syntax is documented here: https://godoc.org/github.com/gobwas/glob#Glob
       # Patterns should be written with forward slashes as separator.
-      exclude: "{diplomacy-chess**,}"
+      exclude: "{diplomacy-chess**,electoral-college-go**}"
