@@ -35,15 +35,15 @@ menu:
   main:
     - identifier: articles
       name: Articles
-      url: /articles
+      url: /articles/
       weight: 10
     - identifier: games
       name: Games
-      url: /games
+      url: /games/
       weight: 20
     - identifier: resume
       name: Resume
-      url: /resume
+      url: /resume/
       weight: 30
 
 deployment:
