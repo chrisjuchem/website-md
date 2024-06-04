@@ -44,7 +44,10 @@ p a:visited {
     max-width: initial;
 }
 
-/* extra spacing for breadcrumb links */
+/* extra spacing for breadcrumb links and comments*/
 .breadcrumbs {
     margin-bottom: var(--content-gap);
+}
+#cusdis_thread {
+    margin-top: 40px;
 }
