@@ -41,10 +41,14 @@ menu:
       name: Games
       url: /games/
       weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
     - identifier: resume
       name: Resume
       url: /resume/
-      weight: 30
+      weight: 40
 
 deployment:
   targets:
