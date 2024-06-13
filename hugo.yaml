@@ -33,10 +33,10 @@ params:
 
 menu:
   main:
-    - identifier: articles
-      name: Articles
-      url: /articles/
-      weight: 10
+#    - identifier: articles
+#      name: Articles
+#      url: /articles/
+#      weight: 10
     - identifier: games
       name: Games
       url: /games/
