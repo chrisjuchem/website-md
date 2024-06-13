@@ -15,7 +15,7 @@ comments: false
 
 *Linux, Firmware, Rust, C*
 
-- Developed RPC server allowing coordination between connected devices to assist in field operation
+- Led development of RPC server allowing coordination between connected devices to assist in field operation
 - Helped bring new products to market by writing tools such as collectd plugins and eeprom data parsers
 - Contributed to design, implementation, and configuration tooling of a custom TDMA network protocol
 - Researched and wrote documentation describing multi-CPU SoC firmware purchased from a third party
